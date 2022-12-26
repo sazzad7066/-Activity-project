@@ -1,0 +1,164 @@
+/* common-css start  */
+.text-justify{
+    text-align: justify;
+}
+/* common-css end  */
+header{
+    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)) ,url(../img/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header .navbar{
+    height: 100px;
+}
+header i{
+    color: #30c39e;
+}
+header .navbar-brand span{
+    color: #fff;
+    font-weight: 600;
+    font-size: 32px;
+}
+header .navbar-nav .nav-link.active{
+    color: #30c39e;
+}
+header .nav-link{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+    transition: .5s all linear;
+    text-align: right;
+}
+header .nav-link:hover{
+    color: #30c39e;
+}
+header .header-content{
+    margin: 210px 0px;
+    padding: 10px 0px;
+}
+header .header-content h4{
+    color: #fff;
+    font-size: 20px;
+}
+header .header-content h1{
+    color: #30c39e;
+    font-size: 65px;
+    font-weight: bold;
+}
+header .header-content h3{
+    color:  #fff;
+    font-size: 20px;
+    font-weight: 600;
+}
+header .header-content p{   
+    color: #fff;
+    font-size: 16px;
+    text-align: justify;
+    max-width: 650px
+}
+header .header-content a{
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 10px 50px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: .5s all linear;
+}
+header .header-content a:hover{
+    background: #30c39e;
+}
+/* header-end */
+
+/* about-us-start */
+.about-us{
+    margin: 100px 0px;
+}
+.about-us h2{
+    color: #333333;
+    font-size: 45px;
+    display: inline-block;
+    position: relative;
+}
+.about-us  h2::after{
+    position: absolute;
+    content: '';
+    left: 35px;
+    bottom: -5px;
+    height: 5px;
+    width: 70%;
+    background: #212529;
+}
+.about-us h3{
+    color: #333333;
+    font-size: 22px;
+}
+.about-us p{
+    color: #666666;
+    font-size: 20px;
+}
+.about-us a{
+    color: #fff;
+    border: 2px solid transparent;
+    padding: 10px 50px;
+    background:#30c39e; 
+    text-decoration: none;
+    transition: .5s all linear;
+    display: inline-block;
+}
+.about-us a:hover{
+    border: 2px solid #333333;
+    color: #333;
+    background: none;
+}
+
+.content-block-right h3{
+    color: #333333;
+    font-size: 22px;
+}
+.content-block-right p{
+    color: #666666;
+    font-size: 15px;
+}
+.about-poster{
+    background: url(../img/about.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+/* about-us-end */
+
+/* service start */
+.Services{
+    background: #30c39e;
+    margin: 20px 0px;
+}
+.Services h2{
+    color: #fff;
+    font-size: 45px;
+   display: inline-block;
+   position: relative;
+}
+.Services h2::after{
+    position: absolute;
+    content: '';
+    left: 35px;
+    bottom: 40px;
+    height: 5px;
+    width: 70%;
+    background: #fff;
+}
+.Services i{
+    color: #fff;
+}
+.Services h3{
+    color: #fff;
+    font-size: 20px; 
+}
+.Services p{
+    color: #eeeeee;
+    font-size: 16px; 
+}
+/* service end */
