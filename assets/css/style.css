@@ -2,6 +2,7 @@
 .text-justify{
     text-align: justify;
 }
+
 /* common-css end  */
 header{
     background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)) ,url(../img/banner.jpg);
@@ -133,21 +134,22 @@ header .header-content a:hover{
 /* service start */
 .Services{
     background: #30c39e;
-    margin: 20px 0px;
+    padding: 50px 0px;
 }
 .Services h2{
     color: #fff;
     font-size: 45px;
    display: inline-block;
+   margin-bottom: 50px;
    position: relative;
 }
 .Services h2::after{
     position: absolute;
     content: '';
-    left: 35px;
-    bottom: 40px;
-    height: 5px;
-    width: 70%;
+    left: 0px;
+    bottom: 0px;
+    height: 3px;
+    width: 100%;
     background: #fff;
 }
 .Services i{
@@ -162,3 +164,202 @@ header .header-content a:hover{
     font-size: 16px; 
 }
 /* service end */
+
+/* Experience-start  */
+.Experience h2{
+    color: #333333;
+    font-size: 45px;
+   display: inline-block;
+   position: relative;
+}
+.Experience h2::after{
+    position: absolute;
+    content: '';
+    left: 0px;
+    bottom: -5px;
+    height: 5px;
+    width: 100%;
+    background: #333333;
+}
+
+.Experience-content {
+     background: #F8F9FA;
+     padding: 20px 0px;
+}
+.img-fluid{
+    width: 100%;
+}
+.Experience-content h4{
+    font-size: 20px;
+    color: #333333;
+}
+.Experience-content span {
+    float: right;
+    background: #30C39E;
+    font-size: 13px;
+    color: #fff;
+    padding: 5px 10px;
+}
+.Experience-content p{
+    font-size: 15px;
+    color: #666666;
+}
+/* Experience-end  */
+
+/* Blog-start  */
+.Blog .title h2{
+    color: #fff;
+    font-size: 45px;
+   display: inline-block;
+   position: relative;
+}
+.Blog .title h2::after{
+    position: absolute;
+    content: '';
+    left: 0px;
+    bottom: -5px;
+    height: 5px;
+    width: 100%;
+    background: #fff;
+}
+.Blog .title2 h3{
+    font-size: 28px;
+    color: #fff;
+}
+.Blog .title2 p{
+    color: #ccc;
+    font-size: 15px;
+}
+.Blog{
+    background: url(../img/blog1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.blog-content{
+    background: #F8F9FA;
+    padding: 50px;
+    max-width: 400px;
+}
+
+.blog-content h4{
+   font-size: 20px;
+   color: #333333;
+}
+.blog-content span {
+   float: right;
+   background: #30C39E;
+   font-size: 13px;
+   color: #fff;
+   padding: 5px 10px;
+}
+.blog-content p{
+   font-size: 15px;
+   color: #666666;
+}
+.blog-content a{
+    text-decoration: none;
+}
+/* Blog-end  */
+/* project-start  */
+.Projects .title h2{
+    color: #0D1326;
+    font-size: 45px;
+   display: inline-block;
+   position: relative;
+}
+.Projects .title h2::after{
+    position: absolute;
+    content: '';
+    left: 0px;
+    bottom: -5px;
+    height: 5px;
+    width: 100%;
+    background: #0D1326;
+}
+/* project-end  */
+/* Ulvinar-start  */
+.Ulvinar{
+    background: #0A8EA0;
+}
+.Ulvinar h2{
+    color: #fff;
+    color: 28px;
+}
+.Ulvinar p{
+    color: #ddd;
+    color: 16px;
+    max-width: 1000px;
+}
+.Ulvinar a{
+    background: #0D1326;
+    padding: 16px 52px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+    transition: .5s all linear;
+}
+.Ulvinar a:hover{
+    background: #fff;
+    color: #0A8EA0;
+}
+.Ulvinar a.active{
+    background: #fff;
+    color: #0A8EA0;
+    padding: 16px 52px;
+    border-radius: 5px;
+}
+.Ulvinar a.active:hover{
+    background: #0D1326;
+    color: #fff;
+}
+
+/* Ulvinar-end  */
+
+/* Contact-start  */
+.Contact .title h2{
+    color: #0D1326;
+    font-size: 45px;
+   display: inline-block;
+   position: relative;
+}
+.Contact .title h2::after{
+    position: absolute;
+    content: '';
+    left: 0px;
+    bottom: -5px;
+    height: 5px;
+    width: 100%;
+    background: #0D1326;
+}
+.Contact a.active{
+    background: #0A8EA0;
+    color: #fff;
+}
+.Contact a:hover{
+    background: #fff;
+    color: #0A8EA0;
+}
+.Contact a{
+    text-decoration: none;
+    border: 1px solid #0A8EA0;
+    padding: 8px 10px;
+    color: #0A8EA0;
+    border-radius: 5px;
+    float: right;
+}
+input#name {
+    padding: 10px 100px;
+    border-radius: 10px;
+}
+input#email {
+    padding: 10px 100px;
+    border-radius: 10px;
+}
+/* Contact-end  */
+footer{
+    background: #0D1326;
+}
+footer .Projects .title p{
+color: #fff;
+font-size: 20px;
+}
